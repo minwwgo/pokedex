@@ -17,6 +17,10 @@ function App() {
       <CaughtPokemon newDate={newDate}/>
       <Footer/>
       <Footer/>
+      <Footer/>
+      <Footer/>
+      <Footer/>
+      <Footer/>
       
     </div>
   );
