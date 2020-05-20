@@ -2,7 +2,8 @@ import React from "react";
 import Logo from './Logo';
 import BestPokemon from './BestPokemon'
 import CaughtPokemon from './CaughtPokemon'
-import Header from './Header'
+import Footer from './Footer'
+
 
 
 function App() {
@@ -10,10 +11,11 @@ function App() {
   const newDate = new Date().toLocaleDateString()
   return (
     <div>
-      <Header/>
+      
       <Logo  appName="Pokedex"/>
       <BestPokemon  abilities={abilities}/>
       <CaughtPokemon newDate={newDate}/>
+      <Footer />
     </div>
   );
 }
