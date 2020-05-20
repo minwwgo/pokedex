@@ -16,6 +16,9 @@ function App() {
       <BestPokemon  abilities={abilities}/>
       <CaughtPokemon newDate={newDate}/>
       <Footer/>
+      <Footer/>
+      <Footer/>
+      <Footer/>
     </div>
   );
 }
