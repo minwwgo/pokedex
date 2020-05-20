@@ -2,7 +2,7 @@ import React from "react";
 import Logo from './Logo';
 import BestPokemon from './BestPokemon'
 import CaughtPokemon from './CaughtPokemon'
-// import Footer from './Footer'
+import Footer from './Footer'
 
 
 
@@ -15,7 +15,7 @@ function App() {
       <Logo  appName="Pokedex"/>
       <BestPokemon  abilities={abilities}/>
       <CaughtPokemon newDate={newDate}/>
-      
+      <Footer/>
     </div>
   );
 }
