@@ -9,10 +9,11 @@ function App() {
   const newDate = new Date().toLocaleDateString()
   return (
     <div>
-      <Footer/>
+      
       <Logo  appName="Pokedex"/>
       <BestPokemon  abilities={abilities}/>
       <CaughtPokemon newDate={newDate}/>
+      <Footer/>
     </div>
   );
 }
